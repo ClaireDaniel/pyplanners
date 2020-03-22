@@ -1,0 +1,55 @@
+body{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+h1{
+	font-size: 18px;
+}
+
+.content{
+	max-width: 600px;
+	margin: auto;
+	text-align: left;
+}
+
+.bar{
+	padding-left:15px;
+	
+}
+
+.form{
+	padding-right:15px;
+}
+
+.button{
+	width: 31.33%;
+	display:inline-block;
+	background-color: #E6E7E8;
+	border: none;
+	padding: 10px,10px;
+	font-size: 16px;
+}
+
+.button:hover, .button:focus {
+  background-color: #39B54A;
+}
+
+
+@media only screen and (max-width: 600px) {
+ h1{
+ 	font-size:14px;
+ }
+ 
+ .content {
+    max-width: 100%;
+  }
+  
+  .bar{
+	padding-left:7px;
+}
+  
+ .button{
+	font-size: 12px;
+}
+}
